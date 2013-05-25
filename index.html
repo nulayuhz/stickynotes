@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<title>Sticky Notes</title>
+	<link rel="stylesheet" href="css/todos.css">
+  <link  href="http://fonts.googleapis.com/css?family=Reenie+Beanie:regular" rel="stylesheet" type="text/css"> 
+	<script data-main="js/main" src="js/libs/require/require.js"></script>
+</head>
+<body>
+
+<div id="todoapp">
+
+      <div class="title">
+        <h1>Add A Sticky Note</h1>
+      </div>
+
+      <div class="content">
+
+        <div id="create-todo">
+          <!-- enter what to do here -->
+          <input id="new-todo" placeholder="What needs to be done?" type="text" />
+          <span class="ui-tooltip-top" style="display:none;">Press Enter to save this task</span>
+        </div>
+
+        <div id="todos">
+          <!-- todo list is here -->
+          <ul id="todo-list"></ul>
+        </div>
+
+        <div id="todo-stats">
+          <!-- todo stats shows how many todos left unfinish -->
+        </div>
+
+      </div>
+</div>
+<div id='stickies'>
+  <ul>
+    <!-- todo item will be added here -->
+  </ul>
+</div>
+<div id='recycle-bin'>
+<p>Recycle bin</p>
+</div>
+
+
+</body>
+</html>
